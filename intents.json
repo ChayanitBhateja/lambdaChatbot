@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Hey","Namaste"],
+         "responses": ["Hello, thanks for visiting", "Hi there, how can I help?","Namaste, How may I help"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.", "I thought we'll talk about Black Widow now...\n Fine, maybe next time."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "tasks",
+         "patterns": ["What can you do?", "What are your features?", "What are you abilities"],
+         "responses": ["I can do whatever you asks me to do", "I can talk and do things for you", "Right now i'm in developing stage as soon i'm developed, I can do everything"]
+        },
+        {"tag": "Lambda",
+         "patterns": ["Who are you?", "tell me about yourself", "tell me about you", "do you know Lambda", "who is Lambda", "what is your name","are you an AI", "what are you" ],
+         "responses": ["Hi I'm Lambda and i'm an AI created to help you avail our services ","Lambda here, a very advance chatbot", "Lambda, AI chatbot and a marvel fan!", "Yes, I'm Lambda", "You can call me Lambda"],
+	 "context_set": ""
+	},
+	{"tag": "creator",
+         "patterns": ["Who is your creator?", "who created you", "who is your father","who is your daddy", "who are your parents", "Do you have parents?" ],
+         "responses": ["That would be you Mr. Chayanit","I was created by Mr. Chayanit", "Mr. Chayanit is my creator, He is a DC fan btw."],
+	 "context_set": ""
+	},
+        {"tag": "team",
+         "patterns": ["Tell me about Codeation?", "Who is in Codeation", "Who are running Codeation", "People in Codeation", "Who is in the team?", "Who is the boss here?", "Who is the founder of Codeation?","Owner of Codeation","CEO of Codeation","Who creates Codeation"],
+         "responses": ["We are an IT Company based in Chandigarh. Here is the TEAM\n Rishabh Jain(Thanos) - Full Stack Web Developer\n Amit Khatkar(IronMan) - Full Stack React Native Dev\n Anoop Poonia(Black Panther) - Web Developer \n Chayanit Bhateja(Ant Man) - Data Scientist",
+                "Let me introduce you to the team;\n Rishabh Jain(Thanos) - Full Stack Web Developer\n Amit Khatkar(IronMan) - Full Stack React Native Dev\n Anoop Poonia(Black Panther) - Web Developer \n Chayanit Bhateja(Ant Man) - Data Scientist",
+                 "Though Rishabh(Thanos) is our founder/CEO but Duh! he is not our boss.\n Let me introduce to rest of the TEAM; \n Amit Khatkar(IronMan) - Full Stack React Native Dev\n Anoop Poonia(Black Panther) - Web Developer \n Chayanit Bhateja(Ant Man) - Data Scientist"],
+	 "context_set": ""
+	},
+        {"tag": "joke",
+         "patterns": ["tell me a joke?", "make me laugh", "tell me something funny" ],
+         "responses": ["We Don't do that here...."],
+	 "context_set": ""
+	},
+	{"tag": "services",
+         "patterns": ["What services you offer?", "What do you do?", "What can you do for me?","How can you help me?", "I want to avail your services", "Would you help me?", "What are the services you have?"],
+         "responses": ["There are array of things we do, \n We can help you with your website - Create beautiful UI and a supportive backend, Create responsive website, You want fast APIs, Yes we can do that too!\n Mobile Application Consultancy - So you want to make the next tiktok or the next Spotify\n we will create your dream a real world app\n Data Science Consultancy - Have colossal amount of data, We can help you analyse your data, Create Dashboards, Take out Useful Insights and Not to mention Create Machine Learning Models to accurately and Precisely Predict and Prescribe descisions for your business.",
+                "Services Offered are: \n - Full Stack Web Developement Consultancy\n - Mobile Application Development\n - Data Science Consultancy",
+                "Checkout our ashtoning Portfolio on\n - Full Stack Web Developement Consultancy\n - Mobile Application Development\n - Data Science Consultancy "],
+	 "context_set": ""
+	},
+	{"tag": "Web Development",
+         "patterns": ["I want to create a website", "Can you create a website", "Can you design UI of website", "Can you design User Interface", "Can you create frontend","Can you setup server for me?","I want some help for my website","Can you design a webpage"],
+         "responses": ["Write your details down and Black Panther will reach out to you soon. Wakanda Forever!", "Drop your requirements, Thanos is busy conquering another planet. He Will reach out to you soon.", "With the Tech Gauntlet, We can do that on the 'snap of a finger'.\n Drop your Requirements below. We will reach out to you soon."],
+	 "context_set": ""
+	}
+   ]
+}
